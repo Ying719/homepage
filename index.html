@@ -839,7 +839,7 @@ body.panel-open .edit-drawer{ display:flex }
     ],
 
     /* —— 页脚 —— */
-    updated: "2026-09-22",           // 更新日期，改了内容顺手改这里
+    updated: "",                     // 留空 = 自动显示当天日期；想写死就填 "2026-09-30"
     footNote: "本站内容持续补充中"
   },
 
@@ -1224,11 +1224,15 @@ body.panel-open .edit-drawer{ display:flex }
     }).join('');
 
     // 页脚
+    var updatedText = m.updated || (function () {
+      var d = new Date();
+      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    })();
     document.getElementById('foot').innerHTML =
       (m.motto ? '<p class="motto">' + rich(m.motto) + '</p>' : '') +
       '<div class="foot-in">' +
         '<span>' + rich(m.footNote || '') + '</span>' +
-        '<span class="mono">最近更新：<strong>' + rich(m.updated || '') + '</strong></span>' +
+        '<span class="mono">最近更新：<strong>' + rich(updatedText) + '</strong></span>' +
       '</div>';
 
     bindCopyButtons();
