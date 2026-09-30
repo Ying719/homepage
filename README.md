@@ -1,6 +1,6 @@
 # 个人主页 · homepage
 
-在线预览：**https://yiiiii_1_0.gitee.io/homepage**
+在线预览：**https://ying719.github.io**
 
 一个用纯 HTML/CSS/JS 手写的单文件个人主页，没有任何框架和构建工具——打开 `index.html` 就能看，改完保存刷新即可生效。
 
@@ -39,10 +39,9 @@
 
 ## 部署方式
 
-托管在 **Gitee Pages** 上：
+托管在 **GitHub Pages** 上（Gitee Pages 服务已停止运营，故不用 Gitee 部署）：
 
-```
-服务 → Gitee Pages → 部署分支 master → 部署目录 /
-```
+- 仓库名：`Ying719.github.io`（用户主站仓库名必须与用户名一致）
+- 部署分支：`master`，目录 `/`（根目录）
 
-每次修改 `index.html` 并推送后，需要到 Gitee Pages 页面点一次「更新」才会生效。
+每次 `git push` 到 GitHub 后约 1 分钟自动更新，无需手动操作。Gitee 仓库仅作为国内镜像备份。
