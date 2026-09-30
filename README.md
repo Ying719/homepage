@@ -44,8 +44,10 @@
 
 | 项目 | 说明 | 亮点 |
 |------|------|------|
-| [MNIST 手写数字分类](https://gitee.com/yiiiii_1_0/mnist-classification-cnn) | ANN 与 CNN 双模型实现，从零走通完整训练流程 | 对照实验：准确率 97.73% → **99.20%**，错误率降低 65% |
-| [线性回归 · PyTorch](https://gitee.com/yiiiii_1_0/linear-regression-pytorch) | 从零走通 PyTorch 训练闭环（前向 → 损失 → 反向 → 更新） | SGD / Adam 优化器对比，拟合参数误差 < 1% |
+| [MNIST 手写数字分类](https://github.com/Ying719/mnist-classification) | ANN 与 CNN 双模型实现，从零走通完整训练流程 | 对照实验：准确率 97.73% → **99.20%**，错误率降低 65% |
+| [线性回归 · PyTorch](https://github.com/Ying719/linear-regression-pytorch) | 从零走通 PyTorch 训练闭环（前向 → 损失 → 反向 → 更新） | SGD / Adam 优化器对比，拟合参数误差 < 1% |
+
+两个项目在 Gitee 上均有国内镜像（[MNIST](https://gitee.com/yiiiii_1_0/mnist-classification-cnn) / [线性回归](https://gitee.com/yiiiii_1_0/linear-regression-pytorch)），访问更稳定。
 
 ---
 

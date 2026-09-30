@@ -929,7 +929,7 @@ body.panel-open .edit-drawer{ display:flex }
       nav: "项目",
       no: "04",
       title: "项目作品",
-      intro: "目前以独立完成的 AI 练手项目为主，源码已陆续开源在 Gitee；和伙伴合作的项目正在设计中。",
+      intro: "目前以独立完成的 AI 练手项目为主，两个已开源（GitHub / Gitee 双平台同步）；和伙伴合作的项目正在设计中。",
       type: "cards",
       columns: 2,
       items: [
@@ -938,7 +938,14 @@ body.panel-open .edit-drawer{ display:flex }
           title: "MNIST 手写数字分类（ANN vs CNN）",
           desc: "用 PyTorch 做了一次对照实验：同样的数据和训练流程，只换模型结构。CNN 把错误率从 2.27% 压到 0.80%（测试准确率 99.20%）。仓库含训练脚本、预测工具和鼠标手写画板。",
           tags: ["Python", "PyTorch", "CNN", "对照实验"],
-          href: "https://gitee.com/yiiiii_1_0/mnist-classification-cnn"
+          href: "https://github.com/Ying719/mnist-classification"
+        },
+        {
+          meta: "独立完成 · 从零走通训练闭环 · 源码已开源",
+          title: "线性回归（PyTorch 训练闭环）",
+          desc: "从零手写一遍 PyTorch 的完整训练流程：前向传播 → 计算损失 → 清零梯度 → 反向传播 → 更新参数。对比 SGD 与 Adam 两种优化器的收敛表现，拟合出的参数 w、b 与原函数误差均小于 1%。",
+          tags: ["Python", "PyTorch", "优化器对比"],
+          href: "https://github.com/Ying719/linear-regression-pytorch"
         },
         {
           meta: "独立完成 · NLP 练手项目",
