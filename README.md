@@ -1,6 +1,6 @@
 # 个人主页 · homepage
 
-> 在线访问：**https://ying719.github.io**
+> 在线访问：**https://ying719.github.io/homepage/**
 >
 > 一个用纯 HTML / CSS / JS 手写的单文件个人主页 —— 没有框架，没有构建工具，打开 `index.html` 就能看，改完保存刷新即生效。
 
@@ -101,10 +101,10 @@
 
 | 项 | 值 |
 |----|-----|
-| 仓库 | `Ying719.github.io`（用户主站仓库，仓库名须与用户名一致） |
+| 仓库 | `Ying719/homepage` |
 | 分支 | `master` |
 | 目录 | `/`（根目录） |
-| 访问地址 | **https://ying719.github.io** |
+| 访问地址 | **https://ying719.github.io/homepage/** |
 
 推送到 GitHub 后约 1 分钟自动构建发布，**无需任何手动操作**。
 
