@@ -929,7 +929,7 @@ body.panel-open .edit-drawer{ display:flex }
       nav: "项目",
       no: "04",
       title: "项目作品",
-      intro: "目前以独立完成的 AI 练手项目为主，两个已开源（GitHub / Gitee 双平台同步）；和伙伴合作的项目正在设计中。",
+      intro: "目前以独立完成的 AI 练手项目为主，三个已开源（GitHub / Gitee 双平台同步）；和伙伴合作的项目正在设计中。",
       type: "cards",
       columns: 2,
       items: [
@@ -948,13 +948,14 @@ body.panel-open .edit-drawer{ display:flex }
           href: "https://github.com/Ying719/linear-regression-pytorch"
         },
         {
-          meta: "独立完成 · NLP 练手项目",
+          meta: "独立完成 · NLP 练手项目 · 源码已开源",
           title: "BERT 文本情感分类",
-          desc: "基于 BERT 预训练模型做文本情感分类的微调，理解「预训练 + 微调」这套范式是怎么工作的。",
-          tags: ["Python", "BERT", "自然语言处理"]
+          desc: "基于 bert-base-chinese 微调做中文评论情感二分类。重点是方法论：先修掉了初版的数据泄漏（评估集 99.9% 的样本落在训练数据源里，导致初版 97% 的准确率没有意义），重建 8:1:1 分层划分的独立测试集，再加置信度校准与误差归因。最终 910 条零泄漏测试集上准确率 91.10%、Macro-F1 0.9107、ROC-AUC 0.9681。",
+          tags: ["Python", "BERT", "PyTorch", "数据泄漏防治"],
+          href: "https://github.com/Ying719/bert-sentiment-classification"
         },
         {
-          meta: "独立完成 · 大模型应用",
+          meta: "独立完成 · 大模型应用 · 持续完善中",
           title: "RAG 本地知识库问答机器人",
           desc: "用检索增强生成（RAG）搭了一个能对本地文档提问的问答机器人，把大模型和自己的知识库串了起来。",
           tags: ["Python", "RAG", "向量检索", "LLM"]
